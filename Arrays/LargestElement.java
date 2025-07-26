@@ -1,4 +1,8 @@
-/* given an array find the largest element using recursive apprach*/
+/* given an array find the largest element using recursive apprach
+
+TC: O(n)
+SC: O(n)
+*/
 
 import java.io.*;
 
@@ -26,6 +30,14 @@ class LargestElement{
         }
         int ele = Integer.MIN_VALUE;
         System.out.println("Largest Element: "+ Largest(arr,ele,0));
+
+        /*
+        
+        For large arrays, prefer iteration to avoid stack overflow
+        int largest = arr[0];
+        for (int num : arr) if (num > largest) largest = num;
+
+        */
         
     }
 }
