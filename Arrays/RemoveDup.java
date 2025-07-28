@@ -24,8 +24,9 @@ class RemoveDup{
 
     public static void main(String[] args) throws IOException{
         //input: array
-        BufferedReader reader = new BufferedReader(new InputStreamReader(new System.in));
-
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        
+        System.out.println("enter values of array:");
         String s = reader.readLine();
         String[] st = s.split(" ");
 
@@ -44,3 +45,10 @@ class RemoveDup{
 
     }
 }
+
+/*
+enter values of array:
+1 1 3 5 6 6 9
+Array after removing duplicate elements: 
+1 3 5 6 9 
+*/
