@@ -4,7 +4,10 @@ The relative order of the elements should be kept the same.
 If there are k elements after removing the duplicates, then the first k elements of the array should hold the final result. 
 It does not matter what you leave beyond the first k elements.
 
- Return k after placing the final result in the first k slots of the array.
+Return k after placing the final result in the first k slots of the array.
+
+TC: O(n)
+SC: O(1)
 */
 
 import java.io.*;
