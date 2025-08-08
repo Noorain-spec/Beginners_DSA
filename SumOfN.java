@@ -4,7 +4,8 @@ Given an integer N, return the sum of first N natural numbers. Try to solve this
 Input : N = 4
 Output : 10
 Explanation : first four natural numbers are 1, 2, 3, 4.
-Sum is 1 + 2 + 3 + 4 => 10.
+Sum is 1 + 2 + 3 + 4 => 10
+
 */
 
 import java.io.*;
