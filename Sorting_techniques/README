@@ -1,8 +1,8 @@
 Find Below Sorting techinques:
-  1. [X] Selection Sort
-  2. [X] Bubble Sort + recursive
-  3. [X] Insertion Sort + recursive 
-  4. [X] Merge Sort
+  1. Selection Sort
+  2. Bubble Sort + recursive
+  3. Insertion Sort + recursive 
+  4. Merge Sort
   5. Quick Sort
   6. Heap Sort
   7. Radix Sort
